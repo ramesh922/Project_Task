@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-header {
+  height: 100px;
+  width: 100%;
+  border: 2px solid rgb(109, 223, 143);
+  border-radius: 10px;
+  margin: 10px auto;
+  display: flex;
+  font-size: 20px;
+  background-color: rgb(156, 255, 126);
+  color: rgb(89, 55, 145);
+  text-align: left;
+}
+
+@media (max-width: 400px) {
+  .details-header {
+    height: 130px;
+  }
+}
+
+.read-comments-text {
+  font-size: 16px;
+}

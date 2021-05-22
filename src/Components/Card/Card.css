@@ -1,0 +1,48 @@
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: auto;
+  border: 1px solid rgb(104, 204, 221);
+  border-radius: 3px;
+  margin: 10px;
+  background-color:  #80ffff;
+  font-size: 18px;
+}
+
+.custom-card:hover {
+  background-color:  #ffa64d;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:hover {
+  color: rgb(44, 43, 145);
+}
+
+.title {
+  height: 50px;
+  margin: 20px;
+  font-weight: 600;
+}
+
+.button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 160px;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.author {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
