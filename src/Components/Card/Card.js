@@ -67,7 +67,7 @@ const Card = ({ id }) => {
               window.location.href = data.url;
             }}
           >
-            Read the article
+            Read the article Hello
           </button>
         </div>
       </Link>
